@@ -1,0 +1,8 @@
+.tile {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+}
