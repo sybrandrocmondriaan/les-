@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+#canvas {
+    margin: auto;
+    width: 770px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+}
+.rectangle {
+    margin: 10px;
+    min-width: 100px;
+    min-height: 100px;
+}
+ 
+.red {
+    background-color: red;
+    color: red;
+}
+ 
+.blue {
+    background-color: blue;
+    color: blue;
+}
+ 
+.yellow {
+    background-color: yellow;
+    color: yellow;
+}
+.white {
+    background-color: white;
+    color: white;
+}
+ 
+.tower {
+    grid-row: span 2;
+}
+ 
+.wide {
+    grid-column: span 2;
+}
+ 
+.xwide {
+    grid-column: span 3;
+}
+
+.cwide {
+    grid-row: span 3;
+}
+ 
+#rec13 {
+    grid-column: 7;
+    grid-row: 6;
+}
+ 
+#rec14 {
+    grid-column: 6;
+    grid-row: 2;
+}
